@@ -1,0 +1,28 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+form {
+  display: flex;
+  gap: 10px;
+}
+input {
+  flex: 1;
+  padding: 8px;
+}
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
